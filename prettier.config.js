@@ -6,12 +6,12 @@ export default {
   trailingComma: 'none',
   tailwindFunctions: ['clsx', 'cva'],
   importOrder: [
-    '^@/app/(.*)$',
-    '^@/pages/(.*)$',
-    '^@/widgets/(.*)$',
-    '^@/features/(.*)$',
-    '^@/entities/(.*)$',
-    '^@/shared/(.*)$',
+    '^app/(.*)$',
+    '^pages/(.*)$',
+    '^widgets/(.*)$',
+    '^features/(.*)$',
+    '^entities/(.*)$',
+    '^shared/(.*)$',
     '^[./]'
   ],
   importOrderSeparation: true,

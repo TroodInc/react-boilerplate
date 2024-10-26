@@ -1,0 +1,77 @@
+/* prettier-ignore */
+:root {
+  /* Primary Theme */
+  --primary-background: 210 100% 98%;         /* Very light blue-gray */
+  --primary-foreground: 220 15% 20%;          /* Dark slate */
+  --primary-button-background: 220 70% 50%;   /* Bright blue */
+  --primary-button-foreground: 0 0% 100%;     /* White */
+
+  /* Secondary Theme */
+  --secondary-background: 210 50% 95%;        /* Light blue-gray */
+  --secondary-foreground: 220 20% 30%;        /* Medium dark slate */
+  --secondary-button-background: 220 20% 80%; /* Soft light slate */
+  --secondary-button-foreground: 220 15% 20%; /* Dark slate */
+
+  /* Accent Theme */
+  --accent-background: 340 85% 97%;           /* Very light pink */
+  --accent-foreground: 340 70% 40%;           /* Deep magenta */
+  --accent-button-background: 340 75% 50%;    /* Vivid pink */
+  --accent-button-foreground: 0 0% 100%;      /* White */
+
+  /* Muted Theme */
+  --muted-background: 210 15% 95%;            /* Very light gray-blue */
+  --muted-foreground: 220 10% 50%;            /* Muted medium gray */
+
+  /* Destructive Theme */
+  --destructive-background: 0 85% 97%;        /* Very light red */
+  --destructive-foreground: 0 70% 40%;        /* Deep red */
+  --destructive-button-background: 0 80% 55%; /* Vivid red */
+  --destructive-button-foreground: 0 0% 100%; /* White */
+
+  /* Card Theme */
+  --card-background: 0 0% 100%;               /* White */
+  --card-foreground: 220 10% 15%;             /* Dark gray */
+
+  /* Common */
+  --radius: 0.5rem;
+  --border: 220 10% 80%;                      /* Light gray for borders */
+}
+
+/* prettier-ignore */
+.dark {
+  /* Dark Theme Primary */
+  --primary-background: 220 20% 13%;          /* Deep dark slate */
+  --primary-foreground: 210 100% 98%;         /* Very light blue-gray */
+  --primary-button-background: 220 40% 50%;   /* Soft blue */
+  --primary-button-foreground: 0 0% 100%;     /* White */
+
+  /* Dark Theme Secondary */
+  --secondary-background: 220 20% 18%;        /* Darker blue-gray */
+  --secondary-foreground: 210 100% 90%;       /* Light slate */
+  --secondary-button-background: 220 25% 40%; /* Muted slate */
+  --secondary-button-foreground: 0 0% 100%;   /* White */
+
+  /* Dark Theme Accent */
+  --accent-background: 340 65% 20%;           /* Deep magenta */
+  --accent-foreground: 340 85% 85%;           /* Light pink */
+  --accent-button-background: 340 80% 45%;    /* Bright magenta */
+  --accent-button-foreground: 0 0% 100%;      /* White */
+
+  /* Dark Theme Muted */
+  --muted-background: 220 10% 25%;            /* Dark muted gray */
+  --muted-foreground: 220 5% 70%;             /* Muted light gray */
+
+  /* Dark Theme Destructive */
+  --destructive-background: 0 70% 20%;        /* Dark red */
+  --destructive-foreground: 0 85% 97%;        /* Very light red */
+  --destructive-button-background: 0 75% 50%; /* Bright red */
+  --destructive-button-foreground: 0 0% 100%; /* White */
+
+  /* Dark Theme Card */
+  --card-background: 220 15% 15%;             /* Dark slate */
+  --card-foreground: 210 100% 98%;            /* Very light blue-gray */
+
+  /* Common */
+  --radius: 0.5rem;
+  --border: 220 5% 40%;                       /* Medium gray for borders */
+}

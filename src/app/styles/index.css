@@ -1,3 +1,13 @@
+@import 'app/styles/vars.css';
+@import 'app/styles/fonts.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Aeroport', system-ui, sans-serif;
+    background-color: hsl(var(--primary-background));
+  }
+}
