@@ -1,0 +1,76 @@
+@font-face {
+  font-family: 'Aeroport';
+  font-style: normal;
+  font-weight: 300;
+  src: url('shared/assets/fonts/aeroport-light.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: italic;
+  font-weight: 300;
+  src: url('shared/assets/fonts/aeroport-light-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: normal;
+  font-weight: 400;
+  src: url('shared/assets/fonts/aeroport-regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: italic;
+  font-weight: 400;
+  src: url('shared/assets/fonts/aeroport-regular-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: normal;
+  font-weight: 500;
+  src: url('shared/assets/fonts/aeroport-medium.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: italic;
+  font-weight: 500;
+  src: url('shared/assets/fonts/aeroport-medium-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: normal;
+  font-weight: 700;
+  src: url('shared/assets/fonts/aeroport-bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: italic;
+  font-weight: 700;
+  src: url('shared/assets/fonts/aeroport-bold-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: normal;
+  font-weight: 900;
+  src: url('shared/assets/fonts/aeroport-black.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Aeroport';
+  font-style: italic;
+  font-weight: 900;
+  src: url('shared/assets/fonts/aeroport-black-italic.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Bodoni Moda';
+  font-style: normal;
+  font-weight: 400;
+  src: url('shared/assets/fonts/bodoni-moda-regular.ttf') format('truetype');
+}

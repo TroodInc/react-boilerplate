@@ -1,4 +1,5 @@
 import js from '@eslint/js';
+import pluginQuery from '@tanstack/eslint-plugin-query';
 import boundaries from 'eslint-plugin-boundaries';
 import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
@@ -13,7 +14,8 @@ export default tseslint.config(
       '@typescript-eslint': tseslint,
       boundaries: boundaries,
       'react-hooks': reactHooks,
-      'react-refresh': reactRefresh
+      'react-refresh': reactRefresh,
+      '@tanstack/query': pluginQuery
     },
     extends: [
       js.configs.recommended,
