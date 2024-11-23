@@ -8,46 +8,47 @@ export default {
       padding: '1rem'
     },
     extend: {
-      fontFamily: {
-        quote: ['"Bodoni Moda"']
-      },
       colors: {
-        primary: {
-          background: 'hsl(var(--primary-background))',
-          foreground: 'hsl(var(--primary-foreground))',
-          'button-background': 'hsl(var(--primary-button-background))',
-          'button-foreground': 'hsl(var(--primary-button-foreground))'
-        },
-        secondary: {
-          background: 'hsl(var(--secondary-background))',
-          foreground: 'hsl(var(--secondary-foreground))',
-          'button-background': 'hsl(var(--secondary-button-background))',
-          'button-foreground': 'hsl(var(--secondary-button-foreground))'
-        },
-        accent: {
-          background: 'hsl(var(--accent-background))',
-          foreground: 'hsl(var(--accent-foreground))',
-          'button-background': 'hsl(var(--accent-button-background))',
-          'button-foreground': 'hsl(var(--accent-button-foreground))'
-        },
+        background: 'hsl(var(--background))',
+        foreground: 'hsl(var(--foreground))',
         muted: {
-          background: 'hsl(var(--muted-background))',
+          DEFAULT: 'hsl(var(--muted))',
           foreground: 'hsl(var(--muted-foreground))'
         },
-        destructive: {
-          background: 'hsl(var(--destructive-background))',
-          foreground: 'hsl(var(--destructive-foreground))',
-          'button-background': 'hsl(var(--destructive-button-background))',
-          'button-foreground': 'hsl(var(--destructive-button-foreground))'
-        },
         card: {
-          background: 'hsl(var(--card-background))',
+          DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))'
-        }
-      },
-      borderRadius: {
-        radius: 'var(--radius)'
+        },
+        popover: {
+          DEFAULT: 'hsl(var(--popover))',
+          foreground: 'hsl(var(--popover-foreground))'
+        },
+        border: 'hsl(var(--border))',
+        input: 'hsl(var(--input))',
+        primary: {
+          DEFAULT: 'hsl(var(--primary))',
+          foreground: 'hsl(var(--primary-foreground))'
+        },
+        secondary: {
+          DEFAULT: 'hsl(var(--secondary))',
+          foreground: 'hsl(var(--secondary-foreground))'
+        },
+        accent: {
+          DEFAULT: 'hsl(var(--accent))',
+          foreground: 'hsl(var(--accent-foreground))'
+        },
+        destructive: {
+          DEFAULT: 'hsl(var(--destructive))',
+          foreground: 'hsl(var(--destructive-foreground))'
+        },
+        ring: 'hsl(var(--ring))'
       }
+    },
+    borderRadius: {
+      sm: 'calc(var(--radius) - 4px)',
+      md: 'calc(var(--radius) - 2px)',
+      lg: 'var(--radius)',
+      xl: 'calc(var(--radius) + 4px)'
     }
   },
   plugins: []
