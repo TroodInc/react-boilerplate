@@ -31,5 +31,5 @@ This project adheres to the **Feature-Sliced Design (FSD)** methodology to struc
 
 1. Clone the repository:
    ```bash
-   git clone git@github.com:TroodInc/react-boilerplate.git && "$_"
+   git clone git@github.com:TroodInc/react-boilerplate.git && cd "$_"
    ```
