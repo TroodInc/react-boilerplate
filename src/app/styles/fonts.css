@@ -67,10 +67,3 @@
   font-weight: 900;
   src: url('shared/assets/fonts/aeroport-black-italic.otf') format('opentype');
 }
-
-@font-face {
-  font-family: 'Bodoni Moda';
-  font-style: normal;
-  font-weight: 400;
-  src: url('shared/assets/fonts/bodoni-moda-regular.ttf') format('truetype');
-}

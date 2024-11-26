@@ -1,77 +1,45 @@
-/* prettier-ignore */
 :root {
-  /* Primary Theme */
-  --primary-background: 210 100% 98%;         /* Very light blue-gray */
-  --primary-foreground: 220 15% 20%;          /* Dark slate */
-  --primary-button-background: 220 70% 50%;   /* Bright blue */
-  --primary-button-foreground: 0 0% 100%;     /* White */
+  /* Default background color of <body />...etc */
+  --background: 0 0% 100%;
+  --foreground: 0, 0%, 6.67%;
 
-  /* Secondary Theme */
-  --secondary-background: 210 50% 95%;        /* Light blue-gray */
-  --secondary-foreground: 220 20% 30%;        /* Medium dark slate */
-  --secondary-button-background: 220 20% 80%; /* Soft light slate */
-  --secondary-button-foreground: 220 15% 20%; /* Dark slate */
+  /* Muted backgrounds such as <TabsList />, <Skeleton /> and <Switch /> */
+  --muted: 210 40% 96.1%;
+  --muted-foreground: 215.4 16.3% 46.9%;
 
-  /* Accent Theme */
-  --accent-background: 340 85% 97%;           /* Very light pink */
-  --accent-foreground: 340 70% 40%;           /* Deep magenta */
-  --accent-button-background: 340 75% 50%;    /* Vivid pink */
-  --accent-button-foreground: 0 0% 100%;      /* White */
+  /* Background color for <Card /> */
+  --card: 0 0% 100%;
+  --card-foreground: 222.2 47.4% 11.2%;
 
-  /* Muted Theme */
-  --muted-background: 210 15% 95%;            /* Very light gray-blue */
-  --muted-foreground: 220 10% 50%;            /* Muted medium gray */
+  /* Background color for popovers such as <DropdownMenu />, <HoverCard />, <Popover /> */
+  --popover: 0 0% 100%;
+  --popover-foreground: 222.2 47.4% 11.2%;
 
-  /* Destructive Theme */
-  --destructive-background: 0 85% 97%;        /* Very light red */
-  --destructive-foreground: 0 70% 40%;        /* Deep red */
-  --destructive-button-background: 0 80% 55%; /* Vivid red */
-  --destructive-button-foreground: 0 0% 100%; /* White */
+  /* Default border color */
+  --border: 214.3 31.8% 91.4%;
 
-  /* Card Theme */
-  --card-background: 0 0% 100%;               /* White */
-  --card-foreground: 220 10% 15%;             /* Dark gray */
+  /* Border color for inputs such as <Input />, <Select />, <Textarea /> */
+  --input: 214.3 31.8% 91.4%;
 
-  /* Common */
+  /* Primary colors for <Button /> */
+  --primary: 222.2 47.4% 11.2%;
+  --primary-foreground: 210 40% 98%;
+
+  /* Secondary colors for <Button /> */
+  --secondary: 210 40% 96.1%;
+  --secondary-foreground: 222.2 47.4% 11.2%;
+
+  /* Used for accents such as hover effects on <DropdownMenuItem>, <SelectItem>...etc */
+  --accent: 212.57 78.48% 56.27%;
+  --accent-foreground: 212.57 78.48% 56.27%;
+
+  /* Used for destructive actions such as <Button variant="destructive"> */
+  --destructive: 0 100% 50%;
+  --destructive-foreground: 210 40% 98%;
+
+  /* Used for focus ring */
+  --ring: 215 20.2% 65.1%;
+
+  /* Border radius for card, input and buttons */
   --radius: 0.5rem;
-  --border: 220 10% 80%;                      /* Light gray for borders */
-}
-
-/* prettier-ignore */
-.dark {
-  /* Dark Theme Primary */
-  --primary-background: 220 20% 13%;          /* Deep dark slate */
-  --primary-foreground: 210 100% 98%;         /* Very light blue-gray */
-  --primary-button-background: 220 40% 50%;   /* Soft blue */
-  --primary-button-foreground: 0 0% 100%;     /* White */
-
-  /* Dark Theme Secondary */
-  --secondary-background: 220 20% 18%;        /* Darker blue-gray */
-  --secondary-foreground: 210 100% 90%;       /* Light slate */
-  --secondary-button-background: 220 25% 40%; /* Muted slate */
-  --secondary-button-foreground: 0 0% 100%;   /* White */
-
-  /* Dark Theme Accent */
-  --accent-background: 340 65% 20%;           /* Deep magenta */
-  --accent-foreground: 340 85% 85%;           /* Light pink */
-  --accent-button-background: 340 80% 45%;    /* Bright magenta */
-  --accent-button-foreground: 0 0% 100%;      /* White */
-
-  /* Dark Theme Muted */
-  --muted-background: 220 10% 25%;            /* Dark muted gray */
-  --muted-foreground: 220 5% 70%;             /* Muted light gray */
-
-  /* Dark Theme Destructive */
-  --destructive-background: 0 70% 20%;        /* Dark red */
-  --destructive-foreground: 0 85% 97%;        /* Very light red */
-  --destructive-button-background: 0 75% 50%; /* Bright red */
-  --destructive-button-foreground: 0 0% 100%; /* White */
-
-  /* Dark Theme Card */
-  --card-background: 220 15% 15%;             /* Dark slate */
-  --card-foreground: 210 100% 98%;            /* Very light blue-gray */
-
-  /* Common */
-  --radius: 0.5rem;
-  --border: 220 5% 40%;                       /* Medium gray for borders */
 }
