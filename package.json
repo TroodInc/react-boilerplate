@@ -54,6 +54,6 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
-    "pre-commit": "yarn format && yarn lint && yarn build"
+    "pre-commit": "yarn format:write && yarn lint && yarn build"
   }
 }
