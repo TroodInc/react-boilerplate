@@ -10,7 +10,7 @@ const AvatarFallback = forwardRef<
   <AvatarPrimitive.Fallback
     ref={ref}
     className={cn(
-      'rounded-full bg-muted-background flex size-full items-center justify-center',
+      'bg-muted-background flex size-full items-center justify-center rounded-full',
       className
     )}
     {...props}
