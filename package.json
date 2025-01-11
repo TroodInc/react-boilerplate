@@ -8,7 +8,8 @@
     "build": "tsc -b && vite build",
     "lint": "eslint . --ignore-pattern=\"dist\"",
     "preview": "vite preview",
-    "format": "prettier --write src"
+    "format:write": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.1",
@@ -53,6 +54,6 @@
     "yorkie": "^2.0.0"
   },
   "gitHooks": {
-    "pre-commit": "yarn format && yarn lint && yarn build"
+    "pre-commit": "yarn format:write && yarn lint && yarn build"
   }
 }
