@@ -42,13 +42,13 @@ export default {
           foreground: 'hsl(var(--destructive-foreground))'
         },
         ring: 'hsl(var(--ring))'
+      },
+      borderRadius: {
+        sm: 'calc(var(--radius) - 4px)',
+        md: 'calc(var(--radius) - 2px)',
+        lg: 'var(--radius)',
+        xl: 'calc(var(--radius) + 4px)'
       }
-    },
-    borderRadius: {
-      sm: 'calc(var(--radius) - 4px)',
-      md: 'calc(var(--radius) - 2px)',
-      lg: 'var(--radius)',
-      xl: 'calc(var(--radius) + 4px)'
     }
   },
   plugins: []
